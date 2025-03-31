@@ -20,7 +20,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+# Add a route for the root path
+@app.get("/")
+async def read_root():
+    return {"message": "Welcome to the IITM Assignment API!"}
 
 @app.post("/api/")
 async def process_question(
