@@ -13,7 +13,7 @@ from app.functions import *
 
 load_dotenv()
 
-AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZHMyMDAwMDY1QGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.-UEa1J8E411bN67cRkey68jCVph9hhyO3H9HMxOw7og"
+AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
 AIPROXY_BASE_URL = "https://aiproxy.sanand.workers.dev/openai/v1"
 
 
