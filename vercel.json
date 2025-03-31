@@ -13,6 +13,7 @@
       }
     ],
     "env": {
-      "AIPROXY_BASE_URL": "https://aiproxy.sanand.workers.dev/openai/v1"
+      "AIPROXY_BASE_URL": "https://aiproxy.sanand.workers.dev/openai/v1",
+      "AIPROXY_API_KEY": "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZHMyMDAwMDY1QGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.-UEa1J8E411bN67cRkey68jCVph9hhyO3H9HMxOw7og"
     }
   }
